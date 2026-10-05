@@ -76,3 +76,12 @@ savings  = baseline - actual compute cost
 ```
 
 The script is read-only. It changes nothing in NME or Azure.
+
+## Status
+
+>>> RESUME HERE <<<
+
+Tested 5 October 2026 in the TAM 1 lab on PowerShell 7 and 5.1. The September 2026 figures were
+checked by hand against the Cost Management rows. **Not yet compared with an NME console figure**,
+because no lab host pool has auto-scale on. Next step: run it on an environment with auto-scale
+enabled for one full month and compare with Auto-scale History > Savings for the same month.
